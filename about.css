@@ -1,0 +1,28 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.custom-green { background-color: #228B22 !important; }
+.header-logo { height: 50px; border-radius: 4px; }
+
+img { border-radius: 10px; }
+
+body.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+body.dark-mode .custom-green { background-color: #145214 !important; }
+
+body.light-mode { background-color: #f8f9fa; color: #000; }
+
+.footer {
+  background-color: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
