@@ -1,0 +1,26 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.custom-green { background-color: #228B22 !important; }
+.header-logo { height: 50px; border-radius: 4px; }
+
+body.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+body.dark-mode .custom-green { background-color: #145214 !important; }
+
+#feedback-reviews .card {
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+#feedback-reviews .card:hover {
+    transform: scale(1.03);
+}
