@@ -1,0 +1,30 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.custom-green { background-color: #228B22 !important; }
+.header-logo { height: 50px; border-radius: 4px; }
+
+table {
+    border-collapse: collapse;
+}
+
+.table-warning { background-color: #ffe4b5 !important; }
+
+body.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+body.dark-mode .custom-green { background-color: #145214 !important; }
+body.dark-mode table { color: #fff; }
+body.dark-mode input, body.dark-mode select, body.dark-mode textarea { background-color: #1e1e1e; color: #fff; border-color: #555; }
+
+body.light-mode {
+    background-color: #f8f9fa;
+    color: #000;
+}
